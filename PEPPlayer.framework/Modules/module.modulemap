@@ -1,0 +1,6 @@
+framework module PEPPlayer {
+  umbrella header "PEPPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}
