@@ -68,8 +68,6 @@ CG_INLINE CGRect CGRectMakePoint(CGPoint point1, CGPoint point2) {
 
 #pragma mark - Import Hearder
 
-#import <Masonry/Masonry.h>
-
 #import "PEPPlayerViewController.h"
 #import "PEPAVPlayer.h"
 #import "PEPPlayerToolBar.h"
