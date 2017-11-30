@@ -9,6 +9,9 @@
 #ifndef PEPPlayer_h
 #define PEPPlayer_h
 
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
 /************************************************************************************************************************/
 
 #pragma mark - Define
@@ -67,6 +70,8 @@ CG_INLINE CGRect CGRectMakePoint(CGPoint point1, CGPoint point2) {
 /************************************************************************************************************************/
 
 #pragma mark - Import Hearder
+
+#import <Masonry/Masonry.h>
 
 #import "PEPPlayerViewController.h"
 #import "PEPAVPlayer.h"
